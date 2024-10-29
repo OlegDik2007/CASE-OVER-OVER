@@ -16,3 +16,9 @@ SELECT date,
                                                        WHERE  action = 'cancel_order')) w
                         GROUP BY date, order_type) w
 ORDER BY date, order_type
+
+
+
+
+
+***************************************************************
